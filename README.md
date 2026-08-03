@@ -1,4 +1,4 @@
-# 🎬 YouTube Watch Party
+# YouTube Watch Party
 
 A real-time YouTube Watch Party application that enables multiple users to watch YouTube videos together in synchronized playback. The application supports role-based controls, participant management, and seamless real-time communication using WebSockets.
 
