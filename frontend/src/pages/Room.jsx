@@ -127,7 +127,7 @@ function Room() {
 
     const socket =
       new WebSocket(
-        `ws://youtube-watch-party-tsln.onrender.com/ws/${roomCode}/${username}`
+        `wss://youtube-watch-party-tsln.onrender.com/ws/${roomCode}/${username}`
       );
 
     socketRef.current = socket;
