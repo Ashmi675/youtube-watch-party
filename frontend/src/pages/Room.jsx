@@ -68,7 +68,7 @@ function Room() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/set-video",
+        "https://youtube-watch-party-tsln.onrender.com/set-video",
         {
           room_code: roomCode,
           video_url: id
@@ -333,7 +333,7 @@ function Room() {
               try {
         
                 const res = await axios.get(
-                  `http://127.0.0.1:8000/room-state/${roomCode}`
+                  `https://youtube-watch-party-tsln.onrender.com/room-state/${roomCode}`
                 );
         
                 if (res.data.current_video) {
