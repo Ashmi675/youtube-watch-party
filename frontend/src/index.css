@@ -1,0 +1,58 @@
+body {
+
+  margin: 0;
+
+  font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+
+  background:
+    radial-gradient(
+      circle at top,
+      #2b0a0a,
+      #0f0f14 45%
+    );
+
+  color: white;
+
+}
+  
+  .home{
+  
+  width:500px;
+  
+  margin:60px auto;
+  
+  background:white;
+  
+  padding:40px;
+  
+  border-radius:10px;
+  
+  text-align:center;
+  
+  box-shadow:0 0 20px rgba(0,0,0,.1);
+  
+  }
+  
+  input{
+  
+  width:90%;
+  
+  padding:12px;
+  
+  margin-top:10px;
+  
+  font-size:16px;
+  
+  }
+  
+  button{
+  
+  margin-top:20px;
+  
+  padding:12px 20px;
+  
+  cursor:pointer;
+  
+  font-size:16px;
+  
+  }

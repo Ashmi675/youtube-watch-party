@@ -1,0 +1,410 @@
+.room-page {
+
+    min-height: 100vh;
+  
+    background: #0f0f0f;
+  
+    color: white;
+  
+    padding: 25px;
+  
+  }
+  
+  
+  
+  /* HEADER */
+  
+  .room-header {
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+    max-width: 1300px;
+  
+    margin: auto;
+  
+    padding-bottom: 20px;
+  
+    border-bottom: 1px solid #333;
+  
+  }
+  
+  
+  
+  .room-header h1 {
+  
+    margin: 0;
+  
+    font-size: 32px;
+  
+    color: #ff0000;
+  
+  }
+  
+  
+  
+  .room-info {
+  
+    display: flex;
+  
+    gap: 20px;
+  
+    color: #ccc;
+  
+  }
+  
+  
+  
+  .room-info b {
+  
+    color: white;
+  
+  }
+  
+  
+  
+  
+  
+  /* MAIN LAYOUT */
+  
+  .room-content {
+  
+    max-width: 1300px;
+  
+    margin: 30px auto;
+  
+    display: grid;
+  
+    grid-template-columns: 1fr 350px;
+  
+    gap: 25px;
+  
+  }
+  
+  
+  
+  
+  
+  /* VIDEO AREA */
+  
+  .video-area {
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    gap: 20px;
+  
+  }
+  
+  
+  
+  .video-control {
+  
+    display: flex;
+  
+    gap: 15px;
+  
+  }
+  
+  
+  
+  .video-control input {
+  
+    flex: 1;
+  
+    padding: 14px;
+  
+    background: #181818;
+  
+    border: 1px solid #333;
+  
+    color: white;
+  
+    border-radius: 10px;
+  
+    font-size: 15px;
+  
+  }
+  
+  
+  
+  .video-control input:focus {
+  
+    outline: none;
+  
+    border-color: #ff0000;
+  
+  }
+  
+  
+  
+  .video-control button {
+  
+    background: #ff0000;
+  
+    color:white;
+  
+    border:none;
+  
+    padding:0 25px;
+  
+    border-radius:25px;
+  
+    font-weight:bold;
+  
+    cursor:pointer;
+  
+  }
+  
+  
+  
+  
+  
+  .video-card {
+  
+    background:#181818;
+  
+    padding:15px;
+  
+    border-radius:15px;
+  
+    border:1px solid #333;
+  
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.5);
+  
+  }
+  
+  
+  
+  
+  
+  /* PARTICIPANTS */
+  
+  .participants-card {
+  
+    background:#181818;
+  
+    border-radius:15px;
+  
+    padding:20px;
+  
+    border:1px solid #333;
+  
+    height:fit-content;
+  
+  }
+  
+  
+  
+  .participants-card h2 {
+  
+    margin-top:0;
+  
+    border-bottom:1px solid #333;
+  
+    padding-bottom:15px;
+  
+  }
+  
+  
+  
+  
+  
+  .participant {
+  
+    display:flex;
+  
+    justify-content:space-between;
+  
+    align-items:center;
+  
+    padding:15px 0;
+  
+    border-bottom:1px solid #292929;
+  
+  }
+  
+  
+  
+  .participant span {
+  
+    display:flex;
+  
+    flex-direction:column;
+  
+  }
+  
+  
+  
+  .participant small {
+  
+    color:#aaa;
+  
+    margin-top:3px;
+  
+  }
+  
+  
+  
+  
+  
+  .participant button {
+  
+    margin-left:8px;
+  
+    padding:8px 12px;
+  
+    border-radius:20px;
+  
+    border:none;
+  
+    cursor:pointer;
+  
+    background:#ff0000;
+  
+    color:white;
+  
+    font-size:12px;
+  
+  }
+  button {
+
+    transition:0.3s ease;
+  
+  }
+  
+  
+  button:hover {
+  
+    transform:translateY(-2px);
+  
+    opacity:0.85;
+  
+  }
+  
+  
+  
+  
+  /* REMOVE PAGE */
+  
+  .removed-page {
+  
+    min-height:100vh;
+  
+    display:flex;
+  
+    justify-content:center;
+  
+    align-items:center;
+  
+    background:#0f0f0f;
+  
+  }
+  
+  
+  
+  .removed-card {
+  
+    background:#181818;
+  
+    padding:40px;
+  
+    border-radius:20px;
+  
+    text-align:center;
+  
+    border:1px solid #333;
+  
+  }
+  
+  
+  
+  .removed-card h1 {
+  
+    color:#ff0000;
+  
+  }
+  
+  
+  
+  .removed-card button {
+  
+    background:#ff0000;
+  
+    color:white;
+  
+    border:none;
+  
+    padding:12px 25px;
+  
+    border-radius:25px;
+  
+    cursor:pointer;
+  
+  }
+  
+  
+  
+  
+  /* MOBILE */
+  
+  @media(max-width:900px){
+  
+    .room-content{
+  
+      grid-template-columns:1fr;
+  
+    }
+  
+  
+    .room-header{
+  
+      flex-direction:column;
+  
+      gap:15px;
+  
+    }
+  
+  
+    .room-info{
+  
+      flex-direction:column;
+  
+      gap:5px;
+  
+    }
+  
+  }
+  .empty-video {
+
+    height:450px;
+  
+    display:flex;
+  
+    flex-direction:column;
+  
+    justify-content:center;
+  
+    align-items:center;
+  
+    background:#111;
+  
+    border-radius:15px;
+  
+    color:#aaa;
+  
+  }
+  
+  
+  .empty-video h2 {
+  
+    color:white;
+  
+    margin-bottom:10px;
+  
+  }

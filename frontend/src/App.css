@@ -1,0 +1,230 @@
+.home {
+
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+
+
+.home-container {
+
+  width: 90%;
+
+  max-width: 950px;
+
+  text-align: center;
+
+}
+
+
+
+.home-container h1 {
+
+  font-size: 48px;
+
+  font-weight: 700;
+
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff7b7b
+  );
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  margin-bottom: 12px;
+
+}
+
+
+
+.subtitle {
+
+  color: #c5c5c5;
+
+  font-size: 18px;
+
+  margin-bottom: 45px;
+
+}
+
+
+
+.cards {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: stretch;
+
+  gap: 30px;
+
+}
+
+
+
+.card {
+
+  background: linear-gradient(
+    145deg,
+    #1f1f1f,
+    #151515
+  );
+
+  padding: 35px;
+
+  width: 330px;
+
+  min-height: 300px;
+
+  border-radius: 20px;
+
+  border: 1px solid #333;
+
+  box-shadow:
+    0 20px 40px rgba(0,0,0,0.5);
+
+  transition: 0.3s;
+
+}
+
+
+
+.card:hover {
+
+  transform: translateY(-8px);
+
+  border-color: #ff0000;
+
+}
+
+
+
+.card h2 {
+
+  font-size: 26px;
+
+  color: white;
+
+  margin: 0 0 10px 0;
+
+}
+
+
+
+.card p {
+
+  color: #aaa;
+
+  min-height: 50px;
+
+}
+
+
+
+.divider {
+
+  display: flex;
+
+  align-items: center;
+
+  font-weight: 600;
+
+  color: #ff4d4d;
+
+  font-size: 18px;
+
+}
+
+
+
+/* INPUTS */
+
+.room-form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+}
+
+
+
+.room-form input {
+
+  width: 100%;
+
+  padding: 14px;
+
+  margin-top: 15px;
+
+  background: #0f0f0f;
+
+  border: 1px solid #444;
+
+  color: white;
+
+  border-radius: 10px;
+
+  outline: none;
+
+  font-size: 15px;
+
+}
+
+
+
+.room-form input:focus {
+
+  border-color: #ff0000;
+
+}
+
+
+
+/* BUTTONS */
+
+.room-form button {
+
+  margin-top: 22px;
+
+  padding: 13px 28px;
+
+  border: none;
+
+  border-radius: 30px;
+
+  background: #ff0000;
+
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+
+
+.room-form button:hover {
+
+  background: #ff3333;
+
+  transform: scale(1.05);
+
+}
