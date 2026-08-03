@@ -189,42 +189,13 @@ Used for:
 
 ---
 
-## Screenshots
-
-### Home Page
-
-_Add screenshot here_
-
-### Watch Party Room
-
-_Add screenshot here_
-
-### Participants Panel
-
-_Add screenshot here_
-
----
-
-## Future Improvements
-
-- Room chat
-- Authentication
-- Video queue
-- Playlist support
-- Emoji reactions
-- Screen sharing
-- Persistent database (PostgreSQL)
-- User profiles
-
----
-
 ## Author
 
 **Ashmi Singh**
 
-GitHub: https://github.com/<your-username>
+GitHub: https://github.com/Ashmi675
 
-LinkedIn: https://linkedin.com/in/<your-linkedin>
+LinkedIn: https://www.linkedin.com/in/ashmi-singh-881686298
 
 ---
 
